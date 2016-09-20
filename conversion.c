@@ -1,6 +1,7 @@
 #include <string.h>
 #include <stdio.h>
 #include <stdbool.h>
+#include "conversion.h"
 
 double convert_units(float amount, char *from, char *to) {
   double multiplier;
